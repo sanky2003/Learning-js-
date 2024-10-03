@@ -1,4 +1,4 @@
-let score="33abc"
+/*let score="33abc"
 
 console.log(typeof score)
 console.log(typeof (score))
@@ -28,7 +28,37 @@ let sumNumber=22
 
 let stringNumber=String(sumNumber)
 console.log(stringNumber)
-console.log(typeof stringNumber)
+console.log(typeof stringNumber) */
+
+//*********************** Operations ******************************
+
+// let val=3;
+// let negval=-val
+
+// console.log(negval)
+
+// console.log(2+2)
+// console.log(2+2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**2)//=> shows 2 ki power2
+// console.log(2**3)// shows 2 ki power 3
+// console.log(3%2)
+
+// let str1="sanket"
+// let str2=" hello"
+// let str3=str1+str2
+// console.log(str3)
+
+
+console.log("1"+2)//=>12
+console.log(1+"2")//=>12
+console.log("1"+2+2)//=>122
+console.log(1+2+"2")//=>32
+
+
+
+
 
 
 
