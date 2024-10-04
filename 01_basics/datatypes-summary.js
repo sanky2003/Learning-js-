@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -32,6 +32,30 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//+++++++++++++++++++++++++++++++
+// satcks(primitive) and heap (non-primitive)
+
+let myName="sanket"
+let anotherName=myName;
+anotherName="amdurkar";
+
+// console.log(myName)
+// console.log(anotherName)
+//here is formation of an copy not an refernec copied so this is an call by value
+
+// but in non premptive the things are not same here the call by reference takes place in heap
+
+let objOne={
+    name:"sanket",
+    age:21
+}
+
+let objTwo=objOne;
+objTwo.age=26;
+
+console.log(objOne.age)
+console.log(objTwo.age)
